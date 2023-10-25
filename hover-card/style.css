@@ -115,6 +115,7 @@ label {
     background-color:#4daf54;
     border: none;
     cursor: pointer;
+    color: white;
 }
 .buynow:hover, .addcart:hover {
     background-color: green;
