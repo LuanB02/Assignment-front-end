@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    color: white;
+    font-family: 'Poppins';
+
+}
+.container {
+    width: 350px;
+    background-color: #272d40;;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+}
+.text,.size,.color,.buy {
+    transform: translateY(-130px);
+}
+.icon  {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.icon1, .icon2 {
+    margin: 15px 20px 0 20px;
+    z-index: 1;
+}
+.bx {
+    color: white;
+}
+.bx:hover {
+    color: pink;
+    transition: 0.25s;
+}
+.img {
+    transform: translateY(-130px) rotate(-20deg);
+}
+.text {
+    margin-left: 20px;
+}
+.text span h2 {
+    color: #4daf54;
+}
+.size,.color, .buy {
+    margin-left: -15px;
+}
+.size {
+    display: flex;
+    justify-content: left;
+}
+.choosesize li {
+    list-style-type: none;
+    padding-left:5px;
+}
+.choosecolor li {
+    list-style-type: none;
+    padding-left: 8px;
+}
+.choose li {
+    list-style-type: none;
+}
+.flex1,.flex2,.flex3 {
+    display: flex;
+}
+label {
+    font-size: 21px;
+    padding-right: 15px;
+}
+.choosesize li button {
+    background-color: rgb(220, 213, 213);   
+    font-size: 17px;
+    padding: 4px 10px;  
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.num1:hover,.num2:hover,.num3:hover,.num4:hover {
+    background-color: lightseagreen;
+}
+.btt1 {
+    background-color: green;
+}
+.btt1:hover {
+    background-color: #4daf54;
+}
+.btt2 {
+    background-color: red;
+}
+.btt2:hover {
+    background-color: rgb(175, 59, 59);
+}
+.btt3 {
+    background-color: black;
+}
+.btt3:hover {
+    background-color: rgb(32, 31, 31);
+}
+.choosecolor li button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.addcart {
+    margin-left: 10px;
+}
+.buynow,.addcart {
+    padding: 8px 17px;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 5px;
+    background-color:#4daf54;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.buynow:hover, .addcart:hover {
+    background-color: green;
+}
+.color {
+    /* background-color: red; */
+    margin-top: -15px;
+}
