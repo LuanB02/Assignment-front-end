@@ -1,0 +1,2 @@
+- Click "Open Modal" button > Open a modal > Exit a modal once clicking "x" or "Close" on modal.
+- This assignment should use javascript to handle button action on modal.
