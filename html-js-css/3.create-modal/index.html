@@ -15,6 +15,26 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div class="container">
+			<div class="box_modal" id="demo">
+				<div class="title">
+					<p>Welcome to ...</p>
+					<i class="fa-solid fa-xmark" onclick="document.getElementById('demo').style.display='none'
+					"></i>
+				</div>
+				<div class="content">
+					<div class="content_text">
+						<h2>Modal</h2>
+						<p>
+							this a body part of Modal
+						</p>
+					</div>
+					<div class="content_btn" onclick="document.getElementById('demo').style.display='none'
+					"><button>Close</button></div>
+				</div>
+			</div>
+			<button class="btn_modal" onclick="myFunction()">Open Modal</button>
+		</div>
 		<script src="app.js"></script>
 	</body>
 </html>
