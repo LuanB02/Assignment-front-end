@@ -15,26 +15,24 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="container">
-			<div class="box_modal" id="demo">
-				<div class="title">
-					<p>Welcome to ...</p>
-					<i class="fa-solid fa-xmark" onclick="document.getElementById('demo').style.display='none'
-					"></i>
+		<button class="btn_modal" >Open Modal</button>
+		<div class="modal hide1">
+			<div class="modal-hide">
+				<div class="modal-header">
+						<h5>Welcome to...</h5>
+						<i class="fa-solid fa-xmark"></i>
 				</div>
-				<div class="content">
-					<div class="content_text">
-						<h2>Modal</h2>
-						<p>
-							this a body part of Modal
-						</p>
-					</div>
-					<div class="content_btn" onclick="document.getElementById('demo').style.display='none'
-					"><button>Close</button></div>
+				<div class="modal-body">
+					<h2>Modal</h2>
+					<p>This is a part of modal</p>
+				</div>
+				<div class="modal-footer">
+						<button class="close-btn " id="close-modal-btn">Close</button>
 				</div>
 			</div>
-			<button class="btn_modal" onclick="myFunction()">Open Modal</button>
 		</div>
+		
+		
 		<script src="app.js"></script>
 	</body>
 </html>
