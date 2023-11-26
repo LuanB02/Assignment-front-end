@@ -6,3 +6,98 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, rgb(60, 167, 238), rgb(155, 64, 143));;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+}
+.box {
+    width: 350px;
+    min-height: 500px;
+    height: auto;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.information {
+    position: relative;
+    width: 250px;
+    margin-bottom: 40px;
+}
+.title {
+    margin: 20px 0;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 800;    
+}
+input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+button {
+    width: 250px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(38, 145, 217);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s;
+}
+a {
+    text-decoration: none;
+    color: rgb(38, 145, 217);
+}
+.btn-login:hover {
+    background-color: rgba(24, 110, 166, 0.873);
+}
+.signup a:hover {
+    text-decoration: underline;
+}
+span {
+    position: absolute;
+    border-bottom: 3px solid rgb(38, 145, 217);
+    width: 0%;
+    left: 0;
+    top: 28px;
+    transition: 0.5s;
+}
+.information input:focus ~ span {
+    width: 100%;
+}
+small {
+    padding-top: 5px;
+    position: absolute;
+    display: block;
+}
+
+.information.error small{
+    color: red;
+}
+.information.error input {
+    border-bottom: 3px solid red;
+}
